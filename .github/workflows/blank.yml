@@ -6,8 +6,8 @@ jobs:
   print_hello:
     runs-on: ubuntu-latest
     steps:
-    - name: Print hello
-      run: echo "Hello world!"
+      - name: Print hello
+        run: echo "Hello world!"
 
   print_full_technical_info:
     needs: print_hello
